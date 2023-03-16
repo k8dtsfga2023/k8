@@ -3,6 +3,10 @@
     .main h1 {
         font-size: 32px;
     }
+
+    .heading h2 {
+        font-size: 20px;
+    }
 }
 
 /* Untuk Smartphone */
@@ -19,5 +23,13 @@
     .main p {
         font-size: 14px;
         line-height: 20px;
+    }
+
+    .header-right {
+        display:none;
+    }
+
+    .menu-icon {
+       display:block;
     }
 }

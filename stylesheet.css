@@ -11,9 +11,75 @@ a {
     text-decoration: none;
 }
 
+.clear {
+  clear: left;
+}
+
+.fa {
+    margin-right: 5px;
+    /* display:none; */
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-top: 10px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display:none !important;
+  }
+
 .container {
     max-width: 1170px;
     width: 100%;
+    /* display: flex;
+	flex-wrap: wrap; */
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container2 {
+    max-width: 1170px;
+    /* width: 100%; */
+    display: flex;
+	flex-wrap: wrap;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -54,6 +120,36 @@ a {
 .main a:hover {
     background-color: #feb241;
     border-bottom: 4px solid #ccff00;
+}
+
+.card {
+	flex-basis: 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f1f1f1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
+
+.card h3 {
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.card p {
+	font-size: 1em;
+	margin-top: 0;
+}
+
+.body h1 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .heading {
